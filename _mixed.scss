@@ -1,0 +1,44 @@
+@mixin demic_font ($FDCsize, $FDCheight) {
+  font-family: FuturaDemiC, sans-serif;
+  font-size: $FDCsize;
+  line-height: $FDCheight;
+}
+
+@mixin yeseva_font ($YOsize, $YOheight) {
+  font-family: Yeseva One, serif;
+  font-size: $YOsize;
+  line-height: $YOheight;
+}
+
+@mixin book_font ($FBCsize, $FBCheight) {
+  font-family: FuturaBookC, sans-serif;
+  font-size: $FBCsize;
+  line-height: $FBCheight;
+}
+
+@mixin futura_font ($Fsize, $Fheight) {
+  font-family: FuturaMediumC, sans-serif;
+  font-size: $Fsize;
+  line-height: $Fheight;
+}
+
+@mixin fav-side-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin font-style-weight {
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin font-style-weight-up {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+@mixin center-text {
+  text-align: center;
+  justify-content: center;
+}
